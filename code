@@ -1,0 +1,7 @@
+Print('Howdy! Welcome to the Marketing Analytics Loh File Output.')
+
+Run == input('Would you like to take a look at the data?')
+  if Run =='yes', 'Yes', 'y', 'Y':
+  
+  elif:
+  print('Thank You.')
