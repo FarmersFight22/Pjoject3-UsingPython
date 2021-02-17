@@ -1,7 +1,7 @@
-Print('Howdy! Welcome to the Marketing Analytics Loh File Output.')
+Print('Howdy! Welcome to the Marketing Analytics Loh File Output.') # Basic "Welcome" message for user
 
-Run == input('Would you like to take a look at the data?')
-  if Run =='yes', 'Yes', 'y', 'Y':
+Run == input('Would you like to take a look at the data?') # Asking user if they would like to look at data/ run program
+  if Run =='yes', 'Yes', 'y', 'Y': # If user says 
   
   elif:
   print('Thank You.')
