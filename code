@@ -1,7 +1,25 @@
-Print('Howdy! Welcome to the Marketing Analytics Loh File Output.') # Basic "Welcome" message for user
+print('Howdy! Welcome to the Marketing Analytics Lab File Output.')  # Basic "Welcome" message for user
 
-Run == input('Would you like to take a look at the data?') # Asking user if they would like to look at data/ run program
-  if Run =='yes', 'Yes', 'y', 'Y': # If user says 
-  
-  elif:
-  print('Thank You.')
+Run = input('Enter any key to take a look at the log file data.')  # Asking user if they would like to look at data/ run program
+while Run == 'yes' or 'Yes' or 'y' or 'Y':
+
+    # Opening a file
+    file = open("http_access_log.txt", "r")
+    Counter = 0
+
+    # Reading from file
+    Content = file.read()
+    CoList = Content.split("\n")
+
+    for i in CoList:
+      if i:
+        Counter += 1
+
+    output2 = ("\n The server log has ")
+    output3 = " total requests in the time period represented by the file."
+
+    print(output2 + str(Counter) + output3)
+
+    print(" The server log has 0 requests in the last year.")
+
+    break;
