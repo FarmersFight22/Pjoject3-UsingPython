@@ -19,7 +19,10 @@ while Run == 'yes' or 'Yes' or 'y' or 'Y':
     output3 = " total requests in the time period represented by the file."
 
     print(output2 + str(Counter) + output3)
-
-    print(" The server log has 0 requests in the last year.")
+    
+    output2 = ("\n The server log has ")
+    output3 = " total requests in the last year."
+    
+    print("output2 + output3")
 
     break;
